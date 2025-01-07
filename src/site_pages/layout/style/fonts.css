@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "alethiapro";
+  src: url("/public/font/alethiapro-regular.otf");
+}
+
+* {
+    font-family: "alethiapro";
+}

@@ -1,0 +1,82 @@
+.tours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80vw;
+    padding-top: 5vh;
+    margin: auto;
+  }
+  .tour {
+    cursor: pointer;
+    width: 530px;
+    height: 450px;
+    margin-top: 5vh;
+    color: rgb(226, 225, 225);
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: auto
+  }
+  .content {
+    z-index: 4;
+  }
+  .tour img {
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.8);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  
+  .tour:hover img {
+    filter: brightness(1);
+    transform: scale(1);
+  }
+  
+  .content {
+    text-align: center;
+    margin-top: -163px;
+    background-color: #4d6a8b ;
+    height: 36%;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+  }
+  .text {
+    width: 80%;
+    margin: auto;
+    padding-top: 2vh;
+  }
+  .text span {
+    font-size: 18px;
+    padding-top: 8px;
+  }
+  .short_description {
+    font-size: 14px;
+  }
+  .contentt {
+    min-height: 100vh;
+    padding: 50vh;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+  }
+
+.services-container {
+ display: "block";
+ flex-wrap: "wrap"
+}
+
+#components-popconfirm-demo-placement .ant-btn {
+  margin-left: 0;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  width: 70px;
+  text-align: center;
+  padding: 0;
+}
+#components-popconfirm-demo-placement .ant-btn-rtl {
+  margin-left: 8px;
+  margin-right: 0;
+}

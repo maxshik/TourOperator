@@ -1,0 +1,31 @@
+.filters_and_tours {
+    display: flex;
+}
+
+.filters {
+    background-color: white;
+    margin: 3vh;   
+    border-radius: 5px;
+    width: 20vw;
+    height: 60vh;
+}
+
+@media (max-width: 1350px) {
+    .filters {
+        height: 70vh;
+    }
+}
+
+.choice_price {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.ant-slider {
+    margin: 10px;
+}
+.button-filter {
+    font-size: 15px;
+    margin-left: 45vw;
+    margin-top: 5vh;
+}

@@ -1,0 +1,29 @@
+.ourTeam {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.team {
+    display: flex;
+    flex-wrap: wrap;
+}
+#our__team {
+    text-align: center;
+    margin-bottom: 5vh;
+
+}
+.cardOfEmployee {
+    width: 330px;
+    margin-bottom: 5vh;
+    margin: 5vh;
+}
+
+@media (max-width: 1005px) {
+    .cardOfEmployee {
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+}

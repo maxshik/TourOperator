@@ -1,0 +1,12 @@
+.open_burger {
+
+  border: none;
+  background: none;
+}
+.btn_open_burger {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  color: white;
+  font-size: 35px;
+}
